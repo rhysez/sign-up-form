@@ -29,30 +29,37 @@
                 <div>
                     <h1>Your journey starts here.</h3>
                     <form class="formSlot">
-                        <label for="firstname">First name</label>
-                        <input type="text" name="firstname" id="firstname" placeholder="e.g `John`">
-                        
-                        <label for="lastname">Last name</label>
-                        <input type="text" name="lastname" id="lastname" placeholder="e.g `Doe`">
-        
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="e.g JohnDoe@example.com">
-        
-                        <label for="mobile">Mobile</label>
-                        <input type="number" name="mobile" id="mobile" placeholder="e.g 07123456789">
-        
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
-        
-                        <label for="confpassword">Confirm password</label>
-                        <input type="password" name="confpassword" id="confpassword">
+                        <div class="formSection1">
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" name="firstname" id="firstname" placeholder="e.g `John`" required>
+                            
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="e.g `Doe`" required>
+            
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" placeholder="e.g JohnDoe@example.com" required>
+                        </div>
+
+                        <div class="formSection2">
+                            <label for="mobile">MOBILE</label>
+                            <input type="number" name="mobile" id="mobile" placeholder="e.g 07123456789" required>
+            
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+            
+                            <label for="confpassword">CONFIRM PASSWORD</label>
+                            <input type="password" name="confpassword" id="confpassword" required>
+                        </div>
+                        <div class="submit">
+                            <button class="createAccount" type="submit">Create account</button>
+                        </div>
                     </form>
                 </div>
 
             </div>
 
             <div>
-                <button class="createAccount">Create account</button>
+                
             </div>
         
             <div class="logIn">
